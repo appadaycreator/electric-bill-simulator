@@ -105,7 +105,7 @@
 <meta name="twitter:image" content="https://appadaycreator.com/twitter-card.png">
 <meta name="twitter:site" content="@appadaycreator">
 </head>
-<body>
+<body><a href="#main" class="sr-only">本文へスキップ</a>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXQGZRF9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <header class="site-header">
@@ -121,13 +121,13 @@
         <div class="card">
           <h2 style="font-size:18px;font-weight:700;margin-bottom:16px;">⚡ 電気代シミュレーター</h2>
           <label>消費電力（W）</label>
-          <input type="number" id="val1" placeholder="例: 800" min="0">
+          <input type="number" id="val1" placeholder="例: 800" min="0" aria-label="例: 800">
           <label style="margin-top:12px;">1日の使用時間（時間）</label>
-          <input type="number" id="val2" placeholder="例: 8" min="0" max="24">
+          <input type="number" id="val2" placeholder="例: 8" min="0" max="24" aria-label="例: 8">
           <label style="margin-top:12px;">1ヶ月の使用日数（日）</label>
-          <input type="number" id="val3" placeholder="例: 30" min="0" max="31">
+          <input type="number" id="val3" placeholder="例: 30" min="0" max="31" aria-label="例: 30">
           <label style="margin-top:12px;">電力単価（円/kWh）</label>
-          <input type="number" id="val4" placeholder="例: 31" min="0">
+          <input type="number" id="val4" placeholder="例: 31" min="0" aria-label="例: 31">
           <button class="btn" style="margin-top:20px;" onclick="calculate()">計算する</button>
           <div class="result" id="result" style="margin-top:16px;">
             <div class="card" style="text-align:center;">
