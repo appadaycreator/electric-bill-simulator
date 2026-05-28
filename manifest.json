@@ -1,8 +1,9 @@
 {
   "name": "Electric Bill Simulator",
   "short_name": "electric-bil",
-  "start_url": "/",
+  "start_url": "/electric-bill-simulator/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#6366f1"
+  "theme_color": "#6366f1",
+  "scope": "/electric-bill-simulator/"
 }
